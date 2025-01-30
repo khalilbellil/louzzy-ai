@@ -21,5 +21,3 @@
 - Initial release of louzzy AI
 - Setup the api with deepseek-r1 model hosted locally
 - Basic UI with markdown and code format display handling
-
----
