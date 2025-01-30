@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			body { font-family: sans-serif; margin: 1rem; color: white }
+			#prompt { width: 100%; box-sizing: border-box; border-radius: 8px; padding: 0.5rem; margin-bottom: 0.5rem; }
+			#response { border: 1px solid #ccc; margin-top: 1rem; padding: 2vh; min-height: 50vh; border-radius: 8px; }
+			button { padding: 0.5rem 1rem; border: none; background-color: #007acc; color: white; border-radius: 8px; cursor: pointer; }
+			button:hover { background-color: #005f80; }
+			.user-message { color: #007acc; border: 1px solid #007acc; background-color:rgb(27, 27, 27); padding: 0.5rem; border-radius: 8px; margin-bottom: 1vh;}
+			.ai-message { color: #00aacc; border: 1px solid #00aacc;  background-color:rgb(20, 20, 20); padding: 0.5rem; border-radius: 8px; margin-bottom: 1vh;}
+		</style>
+	</head>
+	<body>
+		<h2>Chat with Louzzy AI</h2>
+		<textarea id="prompt" rows="3" placeholder="Ask something..."></textarea><br />
+		<button id="askBtn">Ask</button>
+        <div id="response">
+            <div class="user-message">You: Hi</div>
+            <div class="ai-message">AI: Hello! How can I help you today? </div>
+            <div class="user-message">You: Hi</div>
+            <div class="ai-message">AI: Hello! How can I help you today? </div>
+        </div>
+	</body>
+</html>
